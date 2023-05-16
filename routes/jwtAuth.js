@@ -8,10 +8,10 @@ const authorize=require("../middleware/authorize");
 const { response } = require("express");
 const router=express.Router();
 const User = require('../models/User.model');
-
 const Otp = require("../models/Otp.model");
 
-const OldToken = require("../models/OldToken.model");
+
+//nst OldToken = require("../models/OldToken.model");
 
 const nodemailer = require("nodemailer");
 
