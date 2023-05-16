@@ -4,7 +4,7 @@ const mongoose=require("mongoose");
 const User = require('../models/User.model');
 
 
-const uri=process.env.MONGO_URI
+const uri="mongodb+srv://mohikush:kush12345@cluster0.uih2paa.mongodb.net/cls?retryWrites=true&w=majority";
 mongoose.connect(uri);
 
 
